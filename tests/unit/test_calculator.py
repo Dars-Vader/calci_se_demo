@@ -80,6 +80,6 @@ class TestAdvancedOperations:
         """Test that square root of negative raises
         ValueError"""
 
-    with pytest.raises(ValueError, match="Cannot calculate square root of negative"):
-        square_root(-4)
+        with pytest.raises(ValueError, match="Cannot calculate square root of negative"):
+            square_root(-4)
     # TODO: Students will add TestMultiplyDivide class
